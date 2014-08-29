@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg" >
+
+    <TextView
+        android:id="@+id/stop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:background="#30ffffff"
+        android:text="滑动终止学习 >>>" />
+
+    <com.rg.phone_away.widget.MainTimeLayout
+        android:id="@+id/main_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/stop" >
+
+        <com.welljun.CircularSeekBar
+            android:id="@+id/timeSeekBar"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/minuteTextView"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="right"
+            android:lines="1"
+            android:paddingRight="20dp"
+            android:text="55min"
+            android:textColor="#ffffff"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/hourTextView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/minuteTextView"
+            android:layout_alignLeft="@+id/minuteTextView"
+            android:layout_marginBottom="-30dp"
+            android:gravity="right"
+            android:text="2h"
+            android:textColor="#dedc66"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/secondTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/minuteTextView"
+            android:layout_below="@+id/minuteTextView"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="-30dp"
+            android:gravity="right"
+            android:text="2s"
+            android:textColor="#dedc66"
+            android:textSize="40dp" />
+    </com.rg.phone_away.widget.MainTimeLayout>
+
+</RelativeLayout>

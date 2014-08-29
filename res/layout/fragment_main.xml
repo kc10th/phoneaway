@@ -1,0 +1,101 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg" >
+
+    <RelativeLayout
+        android:id="@+id/main_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@+id/title_user_detail"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/ic_user_detail" />
+
+        <Button
+            android:id="@+id/title_set_app"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_app_set" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/spinnerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/patternSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ae8ec0" />
+
+        <Spinner
+            android:id="@+id/sceneSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#42bcb0" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_above="@+id/spinnerLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/start_button_selector"
+        android:text="开始!"
+        android:textColor="#fdfdab"
+        android:textSize="25dp" />
+
+    <com.rg.phone_away.widget.MainTimeLayout
+        android:id="@+id/main_time_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/start"
+        android:layout_below="@+id/main_title_layout" >
+
+        <com.welljun.CircularSeekBar
+            android:id="@+id/timeSeekBar"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/minuteTextView"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="right"
+            android:lines="1"
+            android:paddingRight="20dp"
+            android:text="55min"
+            android:textColor="#ffffff"
+            android:textSize="60dp" />
+
+        <TextView
+            android:id="@+id/hourTextView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/minuteTextView"
+            android:layout_alignLeft="@+id/minuteTextView"
+            android:layout_marginBottom="-20dp"
+            android:gravity="right"
+            android:text="2h"
+            android:textColor="#dedc66"
+            android:textSize="40dp" />
+    </com.rg.phone_away.widget.MainTimeLayout>
+
+</RelativeLayout>

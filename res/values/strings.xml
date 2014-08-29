@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手机,滚粗！</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_steady_run">SteadyRunActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_white_list">应用白名单</string>
+	<!--add by XL @steady_run  -->
+    <string name="steady_run_first">为了避免「手机，滚粗」软件惨遭各类管理软件的灭口，让软件更好地鞭策你走上幸福康庄大道，请你根据以下情况设置管理软件：</string>
+    <string name="steady_run_final">以上设置不会影响手机的安全，请你安心地在幸福康庄大道上奔跑吧！</string>
+    <string name="steady_run_item0_title">金山手机卫士</string>
+    <string name="steady_run_item1_title">金山电池医生</string>
+    <string name="steady_run_item2_title">360手机卫士</string>
+    <string name="steady_run_item3_title">腾讯手机管家</string>
+    <string name="steady_run_item4_title">百度安全管家</string>
+    <string name="steady_run_item5_title">LBE安全大师</string>
+    <string name="steady_run_item6_title">安卓优化大师</string>
+    <string name="steady_run_item7_title">点心省电</string>
+    <string name="steady_run_item0">将「手机，滚粗」加入保护名单\n\n步骤：打开金山手机卫士 — 进程管理 — 设置 — 进程白名单</string>
+    <string name="steady_run_item1">将「手机，滚粗」加入保护名单\n\n步骤：打开金山电池医生 — 设置 — 内存清理忽略名单</string>
+    <string name="steady_run_item2">将「手机，滚粗」加入保护名单\n\n步骤：打开360手机卫士 — 手机清理 — 设置 — 内存优化忽略名单
+</string>
+    <string name="steady_run_item3">将「手机，滚粗」加入保护名单\n\n步骤：打开腾讯手机管家 — 健康优化 — 手机加速 — 设置 — 添加</string>
+    <string name="steady_run_item4">将「手机，滚粗」加入保护名单\n\n步骤：打开百度安全管家 — 手机加速 — 内存清理 — 忽略名单 
+</string>
+    <string name="steady_run_item5">将「手机，滚粗」加入保护名单\n\n步骤：打开LBE安全大师 — 手机加速 — 白名单任务 — 添加白名单 
+</string>
+   	<string name="steady_run_item6">将「手机，滚粗」加入保护名单\n\n步骤：打开安卓优化大师 — 手机加速 — 进程管理 — 设置 — 结束进程保护列表
+</string>
+<string name="steady_run_item7">将「手机，滚粗」加入保护名单\n\n步骤：打开点心省电 — 设置 — 保护应用列表 — 添加</string>
+
+<!-- TruthOrDare -->
+<string name="truth_title">真心话题目</string>
+	<string name="dare_title">大冒险题目</string>
+	<string name="truth_Q1">从小到大最丢脸出丑的事情是什么？</string>
+	<string name="truth_Q2">初恋是什么时候？</string>
+	<string name="truth_Q3">如果让你拥有一种超能力，你愿意拥有什么呢？ </string>
+	<string name="truth_Q4">哆啦a梦的道具里最想要哪件？</string>
+	<string name="truth_Q5">曾经有过最被感动的事是什么？ </string>
+	<string name="truth_Q6">觉得自己有喜欢同性的可能吗？</string>
+	<string name="truth_Q7">你心目中理想的爱人是什么样子呢？ </string>
+	<string name="truth_Q8">在场的异性中最喜欢的人是谁？为什么？</string>
+	<string name="truth_Q9">你在意你的老婆（老公）不是处女（处男）吗？</string>
+	<string name="truth_Q10">如果有来生你还愿意做男人（女人）吗？</string>
+	<string name="truth_Q11">最欣赏自己哪个部位？</string>
+	<string name="truth_Q12">你会选择你爱的人还是爱你的人？ </string>
+	<string name="truth_Q13">对自己那个部位最不满意？</string>
+	<string name="truth_Q14">认为自己能接受同性恋吗？</string>
+	<string name="truth_Q15">哭得最伤心的是哪一次？为什么？</string>
+	<string name="truth_Q16">对你而言，爱情和友情哪个比较重要？ </string>
+	<string name="truth_Q17">在爱情和面包中，你会选择哪个？为什么？</string>
+	<string name="truth_Q18">到目前为止你做过最疯狂的事是？ </string>
+	<string name="truth_Q19">如果有一天你的同性好友对你说“我爱上你了”，你怎么办？ </string>
+	<string name="truth_Q20">说出让你一直念念不忘的一位异性，原因？ </string>
+	<string name="truth_Q21">对梦中情人有什么要求？</string>
+	<string name="truth_Q22">打算什么时候结婚？</string>
+	<string name="truth_Q23">你通常用哪只指头挖鼻子？</string>
+	<string name="truth_Q24">你能接受婚前性行为吗？</string>
+	<string name="truth_Q25">初吻的年龄？</string>
+	<string name="truth_Q26">如果在电梯里你放了个响屁你会怎么做？</string>
+	<string name="truth_Q27">在现场的异性中，选出你认为适合当男女朋友或者闺蜜的人。</string>
+	<string name="truth_Q28">(男生)请说出3个你硬盘中的女神名字。</string>
+	<string name="truth_Q29">你曾经有过性冲动吗？</string>
+	<string name="truth_Q30">请说出你认为最重要的择偶条件。</string>
+	<string name="truth_Q31">如果你是男的，选择女朋友会选胸大的吗？</string>
+	<string name="truth_Q32">请说出3个在异性身上最不能忍受的行为。</string>
+	<string name="truth_Q33">你妈和你女朋友掉水里，你先救哪一个？</string>
+	<string name="truth_Q34">看异性时，你最先看Ta的哪个部位。</string>
+	<string name="truth_Q35">抠脚的时候喜欢抠哪个位置。</string>
+	<string name="truth_Q36">在公众场合如果塞牙缝了，你会选择怎么处理。</string>
+	<string name="truth_Q37">你最初的性教育启蒙是从哪里学到的？</string>
+	<string name="truth_Q38">整容最想整的部位。</string>
+	<string name="truth_Q39">面对讨厌的人时，心中最残暴的想法。</string>
+	<string name="truth_Q40">你吃过最恶心的食物。</string>
+	<string name="truth_Q41">说两个你的特殊癖好。</string>
+	<string name="truth_Q42">说出你最受不了男（女）朋友什么。</string>
+	<string name="truth_Q43">说出你最喜欢男（女）朋友什么。</string>
+	<string name="truth_Q44">说出一件你做过的猥琐的事情。</string>
+	<string name="truth_Q45">你或者你男朋友做过最浪漫的事。</string>	
+	
+	<string name="dare_Q1">站到凳子上表演大猩猩捶胸呐喊动作</string>
+	<string name="dare_Q2">对在场的与你距离最近的异性说一分钟情话，不要冷场哦。</string>
+	<string name="dare_Q3">蹲凳子上上做便秘状10秒钟。 </string>
+	<string name="dare_Q4">冲到门外撕心裂肺地喊“台湾回归啦！台湾回归啦！大家快看中央一台……”</string>
+	<string name="dare_Q5">吃下每个人为你夹的菜。</string>
+	<string name="dare_Q6">对着离你最近的异性的耳根敏感部位哈气，持续5秒。</string>
+	<string name="dare_Q7">扭屁股一分钟。</string>
+	<string name="dare_Q8">右手捏住左耳垂，弯下腰，顺时针转10圈，再金鸡独立15秒不许倒。</string>
+	<string name="dare_Q9">喝下由朋友调配的饮料。</string>
+	<string name="dare_Q10">亲距离最近的异性的额头。</string>
+	<string name="dare_Q11">把距离最近的异性横抱起来。</string>
+	<string name="dare_Q12">跳钢管舞，距离最近的同性作为“钢管”。</string>
+	<string name="dare_Q13">去要陌生人异性的电话号码。</string>
+	<string name="dare_Q14">唱一首对于你来说有特殊意义的歌（与你心中的人有关），并说出原因。</string>
+	<string name="dare_Q15">用舌头舔肘部。</string>
+	<string name="dare_Q16">背起现场某个mm绕场一圈(非女友)</string>
+	<string name="dare_Q17">在规定时间内在现场调查出三个mm的身高体重。</string>
+	<string name="dare_Q18">摸自己胸大声说“唉太小了”。</string>
+	<string name="dare_Q19">对陌生人美眉挤眉弄眼。</string>
+	<string name="dare_Q20">右手跨过后脑勺从左边摸右眼。</string>
+	<string name="dare_Q21">（双人惩罚）合喝交杯酒。</string>
+	<string name="dare_Q22">请展示自己最性感的动作和最妩媚的动作。</string>
+	<string name="dare_Q23">和距离最近异性十指相扣20秒，并看着对方说眼睛含情脉脉地说：我爱你。</string>
+	<string name="dare_Q24">摆出S型POSE供朋友拍照。</string>
+	<string name="dare_Q25">（男生）公主抱距离最近的女生。</string>	
+	<string name="dare_Q26">在厕所门口对一个进厕所的人说：“欢迎光临”并且鞠躬。</string>
+	<string name="dare_Q27">扮3个鬼脸，并且拍照留念。</string>
+	<string name="dare_Q28">选择一位同性，咆哮着说：“我喜欢你很久了，你到底爱不爱我！到底爱不爱我 ！爱不爱我！”</string>
+	<string name="dare_Q29">给最近通话的人打电话，说：“我发现我是同性恋。”</string>
+	<string name="dare_Q30">露香肩并且带有挑逗性动作。</string>
+	<string name="dare_Q31">轻甩自己的头发，陶醉地说：“飘柔，就是这么自信。”</string>
+	<string name="dare_Q32">进行挑逗性动作，手从腿一直抚摸到嘴唇，并说：“我性感吗？”</string>
+	<string name="dare_Q33">用异性的声音唱一首歌。</string>
+	<string name="dare_Q34">选择一位男性，上演父女（父子）失散多年相认的琼瑶狗血剧情。</string>
+	<string name="dare_Q35">选择一位男性，上演现场抓奸并分手狗血剧情。</string>
+	<string name="dare_Q36">模拟手中拿着一把刀，耍一套刀法。</string>
+	<string name="dare_Q37">如果你是长头发，模仿贞子的样子。</string>
+	<string name="dare_Q38">如果你是男的，请揉着菊花，翘着兰花指，柔弱地说：“哎呀，昨晚ⅩⅩ坏死了，我菊花很疼”</string>
+	<string name="dare_Q39">男的请做出自认为最娘的动作，女的请做出最女汉子的动作。</string>
+	<string name="dare_Q40">原地转15圈后走直线。</string>
+	<string name="dare_Q41">模仿电影中石榴姐躺着的情节，说“不要再说了，快做吧！不要因为我是娇花而怜惜我，用力呀！”</string>
+	<string name="dare_Q42">鼻孔塞入纸巾，用力将其喷出。</string>
+</resources>

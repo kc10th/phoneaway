@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="award_study">
+        <item>各位乡亲，我在「手机，滚粗」软件的带领下，成功抵制手机，离幸福康庄的大道又近了一步，请大家奔走相告。</item>
+        <item>自从有了「手机，滚粗」软件，学习期间我再也不玩手机了，妈妈再也不用担心我的学习了，欧耶~</item>
+        <item>用了「手机，滚粗」软件，我的注意力集中了，脑筋灵活了，学习起来腰不酸腿不疼，一口气学习几个小时，不费劲儿~</item>
+    </string-array>
+    <string-array name="award_work">
+        <item>认真工作了一段时间，我觉得我的能力提高了很多。不用多久，我就会升职加薪，当上总经理    ，出任CEO，迎娶白富美，走上人生巅峰。想想还有点小激动呢，嘿嘿~~</item>
+        <item>只要认真工作，面包会有的，爱情也会有的~ </item>
+    </string-array>
+    <string-array name="award_party">
+        <item>我的好基友肯定爱死我了，我刚刚一直没有玩手机，就默默地看了基友那么久。</item>
+        <item>和身边的人聊了很久，从诗词歌赋谈到人生哲学，我觉得心情舒畅了很多有木有</item>
+    </string-array>
+    <string-array name="punish_study">
+        <item>我刚才一看镜子，艾玛，怎么丑了那么多，原来是我没有坚持认真学习，细思极恐啊！赶快学习去。</item>
+        <item>从今以后，我的人生一片灰暗，前途迷茫，我能预见到我在风雨交加的晚上，披着褴褛的衣服，吃着发硬的面包，孤苦伶仃，人间惨剧。这一切的根源就是，我不学习！</item>
+    </string-array>
+    <string-array name="punish_work">
+        <item>工作时不专心，用手机看小黄片被同事看到了。。大家说说我还有救么？</item>
+        <item>刚刚我在玩手机，同事经过我旁边，我恶作剧地拍了一下他屁股，然后，我发现那个是经理啊啊！！</item>
+    </string-array>
+    <string-array name="punish_party">
+        <item>刚和基友吃饭，光顾着玩手机，一不小心放了个拐弯的屁。。。</item>
+        <item>昨天晚上吃了很多黄豆，现在屁一直往外面窜，臭死了，大家见到我记得要捂鼻子</item>
+    </string-array>
+
+</resources>

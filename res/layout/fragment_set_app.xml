@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/slide_right_bg"
+    android:orientation="vertical"
+>
+
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:text="设置"
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/WhiteList"
+        style="@style/SlideMenuButton"
+        android:text="应用白名单" />
+
+    <Button
+        android:id="@+id/steadyRun"
+        style="@style/SlideMenuButton"
+        android:text="稳定运行说明" />
+
+    <Button
+        android:id="@+id/about"
+        style="@style/SlideMenuButton"
+        android:text="关于" />
+
+    <Button
+        android:id="@+id/closeApp"
+        style="@style/SlideMenuButton"
+        android:text="退出" />
+
+</LinearLayout>
