@@ -64,9 +64,12 @@
             android:name="com.rg.phone_away.AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
-        <activity android:name="com.rg.phone_away.TruthOrDareActivity"></activity>
-        <activity android:name="com.rg.phone_away.TruthActivity"></activity>
-        <activity android:name="com.rg.phone_away.DareActivity"></activity>
+        <activity android:name="com.rg.phone_away.TruthOrDareActivity" >
+        </activity>
+        <activity android:name="com.rg.phone_away.TruthActivity" >
+        </activity>
+        <activity android:name="com.rg.phone_away.DareActivity" >
+        </activity>
     </application>
 
 </manifest>
