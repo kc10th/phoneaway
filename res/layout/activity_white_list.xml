@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#ffffff"
+    android:background="#f3f3f3"
     android:orientation="vertical" >
 
     <RelativeLayout
@@ -23,9 +23,8 @@
             android:layout_centerInParent="true"
             android:layout_centerVertical="true"
             android:text="@string/title_activity_white_list"
-            android:textColor="#ffffff" 
-            android:textSize="20sp"
-            />
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/title_add_button"
