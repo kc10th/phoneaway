@@ -4,43 +4,119 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".TruthOrDareActivity"
-    android:background="@drawable/truth_or_dare_background"
+    android:background="#3c3f3e"
      >
 
     <TextView 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginLeft="10dp"
-        android:text="哈哈，你偷玩手机了吧~来乖乖接受惩罚吧!\n请选择“真心话”或“大冒险”，然后让你的朋友挑选题目吧~"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="哈哈，你偷玩手机了吧~来乖乖接受惩罚吧!"
+        android:textColor="#ffffff"
+        android:textSize="13sp"
+        />
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="为你准备了："
         android:textColor="#ffffff"
         android:textSize="13sp"
         />
     
-     <RelativeLayout 
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_marginTop="300dp"
-         android:layout_marginLeft="65dp"
-         >
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"        
+        >
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        	
+        	android:background="@drawable/true_icon"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="吐真剂"
+        	android:textSize="15sp"
+        	android:textColor="#ffffff"
+        	android:layout_marginLeft="10dp"
+        	android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"        
+        >
+        
+        <ImageView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"        	
+        	android:background="@drawable/dare_icon"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="任务单"
+        	android:textSize="15sp"
+        	android:textColor="#ffffff"
+        	android:layout_marginLeft="10dp"
+        	android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="请选择【真心话】或【大冒险】，然后让你的朋友挑选题目吧！"
+        android:textColor="#ffffff"
+        android:textSize="13sp"        
+        />
+    
+      <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"        
+        >
          
      <Button
          android:id="@+id/truth_btn"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:background="@drawable/truth_btn_selector" 
+         android:layout_width="104dp"
+         android:layout_height="35dp"
+         android:text="真心话"
+         android:textColor="#ffffff"
+         android:textSize="15sp"
+         android:background="@drawable/login_button_selector" 
          />
      
      <Button 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/dare_btn"
-        android:background="@drawable/dare_btn_selector"
-        android:layout_toRightOf="@id/truth_btn"
-        android:layout_marginLeft="20dp"
+         android:id="@+id/dare_btn"
+         android:layout_width="104dp"
+         android:layout_height="35dp"
+         android:layout_marginLeft="20dp"
+         android:text="大冒险"
+         android:textColor="#ffffff"
+         android:textSize="15sp"
+         android:background="@drawable/login_button_selector"        
         />
 
     
-     </RelativeLayout>
+     </LinearLayout>
 
 </LinearLayout>

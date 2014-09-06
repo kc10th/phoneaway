@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@drawable/white_list_nav_bar" >
+        android:background="@drawable/nav_bar" >
 
         <Button
             android:id="@+id/title_back_button"

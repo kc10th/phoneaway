@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
-    android:background="@drawable/fragment_main_background"
+    android:background="#f3f3f3"
     android:orientation="vertical"
     >
     
@@ -11,9 +11,9 @@
         >
 
     	<ImageView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:background="@drawable/fragment_main_title_banner"
+        	android:layout_width="match_parent"
+        	android:layout_height="50dp"
+        	android:background="@drawable/nav_bar"
         />
     
     	<TextView 
@@ -26,9 +26,12 @@
         />
     	
     	<Button 
-    	    android:layout_width="45dp"
-    	    android:layout_height="45dp"
     	    android:id="@+id/back_main_btn"
+    	    android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"	    
     	   	android:background="@drawable/back_main_button_selector"
     	    />
 	</RelativeLayout>
@@ -47,160 +50,106 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:layout_marginBottom="15dp"
-        android:textColor="#000000"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:textColor="#1b1b1b"
         android:text="@string/steady_run_first"
-        android:textSize="16sp"
+        android:textSize="15sp"
         />
 	
 
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn0"
         	android:text="@string/steady_run_item0_title"
         	android:textSize="16sp"        	
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
-    	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
+    	    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
-        	android:layout_gravity="center_horizontal"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
+        	android:layout_gravity="center_horizontal"        	
         	android:id="@+id/steady_run_btn1"
         	android:text="@string/steady_run_item1_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
     	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn2"
         	android:text="@string/steady_run_item2_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
     	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn3"
         	android:text="@string/steady_run_item3_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
-    	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
+    	    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn4"
         	android:text="@string/steady_run_item4_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
     	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn5"
         	android:text="@string/steady_run_item5_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
-    	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
+    	    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn6"
         	android:text="@string/steady_run_item6_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
     	
-    	<ImageView 
-    	    android:layout_width="420px"
-    	    android:layout_height="2dp"
-    	    android:layout_gravity="center_horizontal"
-    	    android:layout_marginTop="5dp"
-    	    android:layout_marginBottom="5dp"
-    	    android:background="#cdb79e"    	    
-    	    />
-    	
     	<Button 
-        	android:layout_width="420px"
-        	android:layout_height="wrap_content"
+        	android:layout_width="214dp"
+        	android:layout_height="47dp"
+        	android:layout_marginTop="7dp"
         	android:layout_gravity="center_horizontal"
         	android:id="@+id/steady_run_btn7"
         	android:text="@string/steady_run_item7_title"
         	android:textSize="16sp"
-        	android:textColor="#077604"
+        	android:textColor="#2d98de"
      		android:background="@drawable/steady_run_btn_selector"
         />
     	
@@ -209,9 +158,11 @@
         android:layout_height="wrap_content"
         android:textColor="#000000"
         android:text="@string/steady_run_final"
-        android:textSize="16sp"
+        android:textSize="15sp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="6dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
         />
     </LinearLayout>
     </ScrollView>

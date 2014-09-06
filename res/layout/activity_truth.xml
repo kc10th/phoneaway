@@ -5,15 +5,15 @@
     android:background="#ffffff"
     android:orientation="vertical">
     
-     <RelativeLayout 
+    <RelativeLayout 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
 
     	<ImageView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:background="@drawable/fragment_main_title_banner"
+        	android:layout_width="match_parent"
+        	android:layout_height="50dp"
+        	android:background="@drawable/nav_bar"
         />
     
     	<TextView 
@@ -26,9 +26,12 @@
         />
     	
     	<Button 
-    	    android:layout_width="45dp"
-    	    android:layout_height="45dp"
     	    android:id="@+id/back_main_btn"
+    	    android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"	    
     	   	android:background="@drawable/back_main_button_selector"
     	    />
 	</RelativeLayout>
