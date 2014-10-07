@@ -1,47 +1,47 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="#f3f3f3"
-    android:orientation="vertical" >
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="#f3f3f3"
+	android:orientation="vertical">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/nav_bar" >
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:background="@drawable/nav_bar">
 
-        <Button
-            android:id="@+id/title_back_button"
-            android:layout_width="18dp"
-            android:layout_height="25dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="15dp"
-            android:background="@drawable/back_main_button_selector" />
+		<ImageView
+			android:id="@+id/title_back_button"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:src="@drawable/back_main_button_selector" />
 
-        <Button
-            android:id="@+id/title_add_button"
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:layout_marginRight="15dp"
-            android:background="@drawable/add_btn_selector" />
+		<ImageView
+			android:id="@+id/title_add_button"
+			android:scaleType="centerInside"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_alignParentRight="true"
+			android:layout_centerVertical="true"
+			android:src="@drawable/add_btn_selector" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:text="@string/title_activity_white_list"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
-    </RelativeLayout>
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_centerVertical="true"
+			android:text="@string/title_activity_white_list"
+			android:textColor="#ffffff"
+			android:textSize="20sp" />
+	</RelativeLayout>
 
-    <ListView
-        android:id="@+id/myapplist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fadeScrollbars="false"
-        android:fastScrollEnabled="true" />
+	<ListView
+		android:id="@+id/myapplist"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:fadeScrollbars="false"
+		android:fastScrollEnabled="true" />
 
 </LinearLayout>

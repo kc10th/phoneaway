@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Gallery;
 import android.widget.Toast;
 
 import com.rg.phone_away.Constants.PackageName;
@@ -91,6 +92,9 @@ public class MainActivity extends Activity {
             Toast.makeText(MainActivity.this, "请登录新浪微博授权", Toast.LENGTH_SHORT).show();
 
             setContentView(R.layout.activity_welcome);
+            AutoGalleryAdapter adapter = new AutoGalleryAdapter(this);
+            Gallery gallery = (Gallery)findViewById(R.id.welcome_gallery);
+            gallery.setAdapter(adapter);
             findViewById(R.id.loginButton).setOnClickListener(new OnClickListener() {
 
                 @Override

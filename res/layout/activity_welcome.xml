@@ -4,11 +4,11 @@
     android:background="#f3f3f3"
     android:orientation="vertical" >
 
-    <ImageView
+    <com.rg.phone_away.widget.AutoGallery
+        android:id="@+id/welcome_gallery"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:scaleType="fitXY"
-        android:src="@drawable/welcome_banner2" />
+        android:scaleType="fitXY" />
 
     <TextView
         android:layout_width="match_parent"

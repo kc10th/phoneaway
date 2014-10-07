@@ -1,96 +1,88 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" 
-    android:background="#f3f3f3"
-    android:orientation="vertical"
-    >
-    
-    <RelativeLayout 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#f3f3f3"
+	android:orientation="vertical">
 
-    	<ImageView 
-        	android:layout_width="match_parent"
-        	android:layout_height="50dp"
-        	android:background="@drawable/nav_bar"
-        />
-    
-    	<TextView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"
-        	android:text="关于"
-        	android:textColor="#ffffff"
-        	android:textSize="20sp"
-        	android:layout_centerInParent="true"
-        />
-    	
-    	<Button 
-    	    android:id="@+id/back_main_btn"
-    	    android:layout_width="18dp"
-            android:layout_height="25dp"
-            android:layout_alignParentLeft="true"
-            android:layout_centerVertical="true"
-            android:layout_marginLeft="15dp"	    
-    	   	android:background="@drawable/back_main_button_selector"
-    	    />
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="50dp">
+
+		<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="50dp"
+			android:background="@drawable/nav_bar" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:text="关于"
+			android:textColor="#ffffff"
+			android:textSize="20sp" />
+
+
+		<ImageView
+			android:id="@+id/back_main_btn"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:layout_alignParentLeft="true"
+			android:layout_centerVertical="true"
+			android:src="@drawable/back_main_button_selector" />
+
 	</RelativeLayout>
 
-    <ImageView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"        	
-        	android:layout_gravity="center_horizontal"
-        	android:layout_marginTop="35dp"
-        	android:background="@drawable/icon_big"
-        />
-    
-    <TextView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"        	
-        	android:layout_gravity="center_horizontal"
-        	android:layout_marginTop="20dp"
-        	android:text="Version 2.0"
-        	android:textSize="20sp"
-        	android:textColor="#878a8a"
-        />
-    
-    <TextView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"        	
-        	android:layout_gravity="center_horizontal"
-        	android:layout_marginTop="60dp"
-        	android:text="开发团队"
-        	android:textSize="20sp"
-        	android:textColor="#929595"
-        />
-    
-        <TextView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"        	
-        	android:layout_gravity="center_horizontal"
-        	android:layout_marginTop="7dp"
-        	android:text="Diamond"
-        	android:textSize="20sp"
-        	android:textColor="#2c98de"
-        />
-        
-        <TextView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"        	
-        	android:layout_gravity="center_horizontal"
-        	android:layout_marginTop="60dp"
-        	android:text="秘密计划  版权所有"
-        	android:textSize="10sp"
-        	android:textColor="#868b8c"
-        />
-        
-        <TextView 
-        	android:layout_width="wrap_content"
-        	android:layout_height="wrap_content"        	
-        	android:layout_gravity="center_horizontal"
-        	android:layout_marginTop="1dp"
-        	android:text="All Rights Reserved"
-        	android:textSize="10sp"
-        	android:textColor="#868b8c"
-        />
+	<ImageView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="35dp"
+		android:background="@drawable/icon_big" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:text="Version 2.0"
+		android:textColor="#878a8a"
+		android:textSize="20sp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="60dp"
+		android:text="开发团队"
+		android:textColor="#929595"
+		android:textSize="20sp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="7dp"
+		android:text="Diamond"
+		android:textColor="#2c98de"
+		android:textSize="20sp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="60dp"
+		android:text="秘密计划  版权所有"
+		android:textColor="#868b8c"
+		android:textSize="10sp" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="1dp"
+		android:text="All Rights Reserved"
+		android:textColor="#868b8c"
+		android:textSize="10sp" />
+
 </LinearLayout>
